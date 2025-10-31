@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: Multi-Agent-LLMOps
+Version: 0.1
+Author: Andrew-Adel
+Requires-Dist: python-dotenv
+Requires-Dist: uvicorn
+Requires-Dist: fastapi
+Requires-Dist: pydantic
+Requires-Dist: streamlit
+Requires-Dist: langchain
+Requires-Dist: langgraph
+Requires-Dist: langchain-groq
+Requires-Dist: langchain-community
+Requires-Dist: langchain-core
+Dynamic: author
+Dynamic: requires-dist

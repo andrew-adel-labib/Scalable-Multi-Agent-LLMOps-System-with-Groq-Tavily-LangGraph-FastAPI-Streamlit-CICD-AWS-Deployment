@@ -1,0 +1,57 @@
+body {
+    background-color: #0e1117;
+    color: #fafafa;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.main-title {
+    font-size: 2.3em;
+    text-align: center;
+    font-weight: bold;
+    color: #00c3ff;
+    margin-bottom: 0.5em;
+}
+
+.sub-text {
+    text-align: center;
+    color: #a0a0a0;
+    margin-bottom: 2em;
+}
+
+.robot-icon {
+    color: #767879;
+    text-shadow: 0 0 10px rgba(84, 85, 85, 0.6);
+}
+
+.stTextArea textarea {
+    border-radius: 10px;
+    border: 1px solid #444;
+    background-color: #1a1d23;
+    color: #fafafa;
+}
+
+.response-box {
+    background-color: #1c1f26;
+    padding: 1.5em;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(0, 195, 255, 0.3);
+    color: #e8e8e8;
+    margin-top: 1.5em;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em 0;
+    color: #0b0b0b;
+    font-size: 15px;
+}
+
+.author-name {
+    color: #8c9193;
+    font-weight: bold;
+}
+
+.footer:hover .author-name {
+    text-shadow: 0 0 5px #a5a9aa;
+}
