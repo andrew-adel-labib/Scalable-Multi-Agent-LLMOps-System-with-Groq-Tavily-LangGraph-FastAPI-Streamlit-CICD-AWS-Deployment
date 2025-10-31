@@ -29,4 +29,4 @@
 ## 👨‍💻 Developed by
 
 **Andrew Adel**
-*El Sewedy University – Polytechnic of Egypt*
+*NLP Engineer/GenAI Engineer*
