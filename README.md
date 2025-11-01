@@ -72,27 +72,29 @@ python app/main.py
 Frontend (Streamlit)
 ```bash
 streamlit run frontend/app.py
+```
 
 ### 🐳 4. Build Docker Image
 ```bash
 docker build -t multi-agent-llmops .
 docker run -p 8000:8000 multi-agent-llmops
+```
 
 ### ☁️ 5. Deploy via Jenkins → AWS
 
 Jenkins Pipeline Steps:
 
-Fetch latest code from GitHub
+- Fetch latest code from GitHub
 
-Run SonarQube quality scan
+- Run SonarQube quality scan
 
-Build and tag Docker image
+- Build and tag Docker image
 
-Push image to AWS ECR
+- Push image to AWS ECR
 
-Deploy on AWS Fargate
+- Deploy on AWS Fargate
 
-Integrate with AWS Load Balancer
+- Integrate with AWS Load Balancer
 
 ### 📊 Monitoring & Reporting
 ✅ Code Quality
