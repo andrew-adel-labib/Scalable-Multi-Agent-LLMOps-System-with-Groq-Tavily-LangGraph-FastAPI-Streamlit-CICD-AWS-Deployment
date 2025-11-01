@@ -1,12 +1,10 @@
 # 🚀 Scalable Multi-Agent LLMOps System  
 **_Leveraging Groq LPU, Tavily Search, LangGraph, FastAPI, Streamlit, SonarQube, Jenkins, and AWS Cloud Deployment_**
 
-![Architecture Diagram](docs/architecture.png)
-
 ---
 
 ## 📘 Overview
-This project is an **end-to-end, production-ready Multi-Agent LLMOps System** designed for scalable, automated AI agent deployment and management.  
+This project is an **production-ready Multi-Agent LLMOps System** designed for scalable, automated AI agent deployment and management.  
 It integrates **Groq LPU** for high-speed inference, **Tavily Search** for real-time web reasoning, and **LangGraph** for multi-agent orchestration — all powered by **FastAPI**, **Streamlit**, and a complete **CI/CD pipeline** with **Jenkins**, **SonarQube**, and **AWS Fargate**.
 
 ---
@@ -62,21 +60,25 @@ It integrates **Groq LPU** for high-speed inference, **Tavily Search** for real-
 git clone https://github.com/andrew-adel-labib/Scalable-Multi-Agent-LLMOps-System-with-Groq-Tavily-LangGraph-FastAPI-Streamlit-CICD-AWS-Deployment.git
 cd Scalable-Multi-Agent-LLMOps-System-with-Groq-Tavily-LangGraph-FastAPI-Streamlit-CICD-AWS-Deployment
 
-🐍 2. Install Dependencies
+### 🐍 2. Install Dependencies
+```bash
 pip install -r requirements.txt
 
-🧩 3. Run Application
+### 🧩 3. Run Application
 Backend (FastAPI)
+```bash
 python app/main.py
 
 Frontend (Streamlit)
+```bash
 streamlit run frontend/app.py
 
-🐳 4. Build Docker Image
+### 🐳 4. Build Docker Image
+```bash
 docker build -t multi-agent-llmops .
 docker run -p 8000:8000 multi-agent-llmops
 
-☁️ 5. Deploy via Jenkins → AWS
+### ☁️ 5. Deploy via Jenkins → AWS
 
 Jenkins Pipeline Steps:
 
@@ -92,27 +94,12 @@ Deploy on AWS Fargate
 
 Integrate with AWS Load Balancer
 
-📊 Monitoring & Reporting
+### 📊 Monitoring & Reporting
 ✅ Code Quality
 
-SonarQube Dashboard: [your SonarQube server URL]
+SonarQube Dashboard: [http://172.25.167.174:9000/dashboard?id=Multi-Agent-LLMOps]
 
 Reports on bugs, code smells, vulnerabilities, and maintainability
-
-☁️ AWS CloudWatch Metrics
-
-Navigate to:
-CloudWatch → ECS → Metrics → Cluster/Service
-
-CPU Utilization
-
-Memory Utilization
-
-Task Count
-
-Network I/O
-
-Export metrics as graphs or reports via CloudWatch console.
 
 🧠 Example Use Cases
 
@@ -129,5 +116,4 @@ Automated LLMOps pipelines with CI/CD and quality gates
 Dr. Andrew Adel
 AI & NLP Engineer | Generative AI Engineer
 📧 andrewadellabib77@gmail.com
-
-🔗 LinkedIn https://www.linkedin.com/in/andrew-adel-b865b1244/
+🔗 LinkedIn
