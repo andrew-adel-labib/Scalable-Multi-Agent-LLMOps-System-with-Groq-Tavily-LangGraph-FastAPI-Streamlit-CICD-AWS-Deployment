@@ -63,12 +63,12 @@ cd Scalable-Multi-Agent-LLMOps-System-with-Groq-Tavily-LangGraph-FastAPI-Streaml
 ### 🐍 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 ### 🧩 3. Run Application
 Backend (FastAPI)
 ```bash
 python app/main.py
-
+```
 Frontend (Streamlit)
 ```bash
 streamlit run frontend/app.py
