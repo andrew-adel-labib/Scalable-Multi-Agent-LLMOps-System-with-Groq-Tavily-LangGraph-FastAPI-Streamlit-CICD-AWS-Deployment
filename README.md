@@ -96,26 +96,26 @@ Jenkins Pipeline Steps:
 
 - Integrate with AWS Load Balancer
 
-### 📊 Monitoring & Reporting
+## 📊 Monitoring & Reporting
 ✅ Code Quality
 
-SonarQube Dashboard: [http://172.25.167.174:9000/dashboard?id=Multi-Agent-LLMOps]
+👉 SonarQube Dashboard: [http://172.25.167.174:9000/dashboard?id=Multi-Agent-LLMOps]
 
-Reports on bugs, code smells, vulnerabilities, and maintainability
+- Reports on bugs, code smells, vulnerabilities, and maintainability
 
-🧠 Example Use Cases
+## 🧠 Example Use Cases
 
-Multi-agent web research and summarization
+- Multi-agent web research and summarization
 
-Code generation and validation with Groq inference
+- Code generation and validation with Groq inference
 
-Knowledge-augmented reasoning using Tavily API
+- Knowledge-augmented reasoning using Tavily API
 
-Automated LLMOps pipelines with CI/CD and quality gates
+- Automated LLMOps pipelines with CI/CD and quality gates
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Dr. Andrew Adel
+Andrew Adel
 AI & NLP Engineer | Generative AI Engineer
-📧 andrewadellabib77@gmail.com
-🔗 LinkedIn
+👉 [📧 andrewadellabib77@gmail.com](mailto:andrewadellabib77@gmail.com)
+👉 [🔗 LinkedIn](https://www.linkedin.com/in/andrew-adel-b865b1244/)
