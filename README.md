@@ -1,139 +1,133 @@
-# 🧠 Scalable Multi-Agent LLMOps System
+# 🚀 Scalable Multi-Agent LLMOps System  
+**_Leveraging Groq LPU, Tavily Search, LangGraph, FastAPI, Streamlit, SonarQube, Jenkins, and AWS Cloud Deployment_**
 
-### Leveraging Groq LPU, Tavily Search, LangGraph, FastAPI, Streamlit, SonarQube, and AWS Cloud Deployment
-
-**Full Technical Name:**
-**End-to-End Multi-Agent LLMOps System Leveraging Groq LPU Inference, Tavily Search Integration, LangGraph Orchestration, FastAPI Backend, Streamlit Frontend, and a CI/CD Pipeline with Jenkins, SonarQube, Docker, AWS ECR, AWS Fargate, and Load Balancer for Scalable Cloud Deployment.**
+![Architecture Diagram](docs/architecture.png)
 
 ---
 
-## 🌍 Overview
-
-This project is a **Multi-Agent LLMOps System** built as a **full-stack, production-ready AI orchestration platform** designed for scalable and automated deployment.
-
-It integrates **Groq** for ultra-fast LLM inference, **Tavily** for real-time web search augmentation, and **LangGraph** for multi-agent orchestration—all wrapped in a robust **FastAPI** backend and an interactive **Streamlit** frontend.
-
-The system is part of an advanced **LLMOps/AIOps pipeline**, focusing on performance, code quality, automation, and cloud scalability. The CI/CD process uses **Jenkins**, **SonarQube**, **Docker**, **AWS ECR**, and **Fargate** for automated deployment. An **AWS Load Balancer** ensures reliability and traffic efficiency.
+## 📘 Overview
+This project is an **end-to-end, production-ready Multi-Agent LLMOps System** designed for scalable, automated AI agent deployment and management.  
+It integrates **Groq LPU** for high-speed inference, **Tavily Search** for real-time web reasoning, and **LangGraph** for multi-agent orchestration — all powered by **FastAPI**, **Streamlit**, and a complete **CI/CD pipeline** with **Jenkins**, **SonarQube**, and **AWS Fargate**.
 
 ---
 
-## 🔁 Project Workflow Summary
+## 🧠 System Architecture
 
-### 🧩 1. Agent Development and Core Logic
-
-* **Agent Design:** Specialized AI agents (e.g., Research Agent, Code Generation Agent) built using **LangGraph** to model complex reasoning workflows.
-* **Tool Integration:** Agents use **Tavily Search** or external APIs for dynamic, knowledge-augmented reasoning.
-* **LLM Inference:** Powered by **Groq LPU** for high-speed inference with low latency.
-
-### ⚙️ 2. Service and Interface Layer
-
-* **Backend:** Built with **FastAPI**, exposing REST and streaming endpoints.
-* **Frontend:** Created with **Streamlit** for real-time user interaction and visualization.
-
-### 🚀 3. LLMOps / CI/CD Pipeline
-
-* **Continuous Integration:** Managed by **Jenkins**, integrating with **SonarQube** for quality gates.
-* **Containerization:** Application packaged via **Docker** for consistency.
-* **Cloud Deployment:**
-
-  * **AWS ECR:** Stores container images.
-  * **AWS Fargate:** Runs serverless containers.
-  * **AWS Load Balancer:** Distributes traffic and ensures scalability.
 
 ---
 
-## 📊 Code Quality Status
+## ⚙️ Workflow Summary
 
-[![Quality Gate Status](http://172.25.167.174:9000/api/project_badges/measure?project=Multi-Agent-LLMOps\&metric=alert_status\&token=sqb_0e1dcd0dc78e4caef23300ffacfdf9f14125c4f2)](http://172.25.167.174:9000/dashboard?id=Multi-Agent-LLMOps)
+### 1️⃣ Agent Development & Core Logic
+- Multi-agent orchestration via **LangGraph**
+- Agents perform reasoning and data retrieval using **Tavily API**
+- **Groq LPU** delivers lightning-fast inference and model execution
 
-🔗 **SonarQube Dashboard:** [View Project Quality Report](http://172.25.167.174:9000/dashboard?id=Multi-Agent-LLMOps)
+### 2️⃣ Service & Interface Layer
+- **Backend:** `FastAPI` exposes RESTful and streaming endpoints
+- **Frontend:** `Streamlit` dashboard provides real-time interaction and monitoring
 
----
-
-## 🧠 Key Technologies
-
-| Category             | Technology/Tool                       | Description                                                               |
-| -------------------- | ------------------------------------- | ------------------------------------------------------------------------- |
-| **LLM Inference**    | **Groq LPU**                          | High-performance Language Processing Unit for low-latency model inference |
-| **Web Search/Tools** | **Tavily API**                        | Real-time search and reasoning augmentation                               |
-| **Agent Framework**  | **LangChain + LangGraph**             | Multi-step orchestration for collaborative AI agents                      |
-| **Backend**          | **FastAPI**                           | High-performance asynchronous API service                                 |
-| **Frontend**         | **Streamlit**                         | Interactive user dashboard for agent interaction                          |
-| **CI/CD Automation** | **Jenkins**                           | Continuous Integration & Deployment pipeline                              |
-| **Code Quality**     | **SonarQube**                         | Static code analysis and continuous inspection                            |
-| **Containerization** | **Docker**                            | Consistent environment packaging                                          |
-| **Cloud Deployment** | **AWS ECR & Fargate + Load Balancer** | Serverless container orchestration and scalable deployment                |
+### 3️⃣ CI/CD & Deployment
+- **Jenkins** automates build and deploy pipelines
+- **SonarQube** ensures code quality with bug and vulnerability scanning
+- **Docker** containers are built and pushed to **AWS ECR**
+- **AWS Fargate** runs the containers serverlessly
+- **AWS Load Balancer** manages traffic and scalability
 
 ---
 
-## 🧩 System Architecture
+## 🧰 Tech Stack
 
-```
-+-----------------------+
-|     Streamlit UI      |
-|  (User Interaction)   |
-+----------+------------+
-           |
-           v
-+----------+------------+
-|     FastAPI Backend   |
-| (Agent Orchestration) |
-+----------+------------+
-           |
-           v
-+----------+------------+
-|  LangGraph Multi-Agent |
-|   + Tavily + Groq LPU  |
-+----------+------------+
-           |
-           v
-+----------+------------+
-|   Docker Container     |
-| Jenkins + SonarQube CI |
-+----------+------------+
-           |
-           v
-+----------+------------+
-| AWS ECR + Fargate + LB|
-| (Serverless Deployment)|
-+------------------------+
-```
+| Category | Technology | Description |
+|-----------|-------------|-------------|
+| LLM Inference | **Groq LPU** | Low-latency model inference |
+| Web Search | **Tavily API** | Real-time knowledge augmentation |
+| Agent Framework | **LangGraph + LangChain** | Multi-agent orchestration |
+| Backend | **FastAPI** | High-performance asynchronous API |
+| Frontend | **Streamlit** | Interactive web dashboard |
+| CI/CD | **Jenkins** | Continuous integration and delivery |
+| Code Quality | **SonarQube** | Static code analysis |
+| Containerization | **Docker** | Environment consistency |
+| Cloud Deployment | **AWS ECR + Fargate + Load Balancer** | Scalable serverless deployment |
 
 ---
 
-## 🧠 Example Use Cases
-
-* Multi-agent web research using **Tavily Search**
-* Code generation or documentation agents powered by **Groq LPU**
-* Data-driven decision pipelines using **LangGraph orchestration**
-* Continuous monitoring of agent reliability and quality via **SonarQube + Jenkins**
 
 ---
 
-## ⚙️ Setup & Deployment
+## ⚙️ Setup Instructions
 
+### 🧱 1. Clone Repository
 ```bash
-# Clone repository
-git clone https://github.com/andrewadel/multi-agent-llmops-system.git
-cd multi-agent-llmops-system
+git clone https://github.com/andrew-adel-labib/Scalable-Multi-Agent-LLMOps-System-with-Groq-Tavily-LangGraph-FastAPI-Streamlit-CICD-AWS-Deployment.git
+cd Scalable-Multi-Agent-LLMOps-System-with-Groq-Tavily-LangGraph-FastAPI-Streamlit-CICD-AWS-Deployment
 
-# Build Docker image
+🐍 2. Install Dependencies
+pip install -r requirements.txt
+
+🧩 3. Run Application
+Backend (FastAPI)
+python app/main.py
+
+Frontend (Streamlit)
+streamlit run frontend/app.py
+
+🐳 4. Build Docker Image
 docker build -t multi-agent-llmops .
-
-# Run FastAPI service
 docker run -p 8000:8000 multi-agent-llmops
 
-# Access Streamlit UI
-streamlit run app.py
-```
+☁️ 5. Deploy via Jenkins → AWS
 
-Deployment to AWS Fargate is handled automatically via Jenkins CI/CD pipeline once code is committed.
+Jenkins Pipeline Steps:
 
----
+Fetch latest code from GitHub
 
-## 👨‍💻 Developed by
+Run SonarQube quality scan
 
-**Andrew Adel**
-*NLP Engineer / GenAI Engineer*
+Build and tag Docker image
 
----
+Push image to AWS ECR
+
+Deploy on AWS Fargate
+
+Integrate with AWS Load Balancer
+
+📊 Monitoring & Reporting
+✅ Code Quality
+
+SonarQube Dashboard: [your SonarQube server URL]
+
+Reports on bugs, code smells, vulnerabilities, and maintainability
+
+☁️ AWS CloudWatch Metrics
+
+Navigate to:
+CloudWatch → ECS → Metrics → Cluster/Service
+
+CPU Utilization
+
+Memory Utilization
+
+Task Count
+
+Network I/O
+
+Export metrics as graphs or reports via CloudWatch console.
+
+🧠 Example Use Cases
+
+Multi-agent web research and summarization
+
+Code generation and validation with Groq inference
+
+Knowledge-augmented reasoning using Tavily API
+
+Automated LLMOps pipelines with CI/CD and quality gates
+
+👨‍💻 Author
+
+Dr. Andrew Adel
+AI & NLP Engineer | Generative AI Engineer
+📧 andrewadellabib77@gmail.com
+
+🔗 LinkedIn https://www.linkedin.com/in/andrew-adel-b865b1244/
