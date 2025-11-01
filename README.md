@@ -99,7 +99,7 @@ Jenkins Pipeline Steps:
 ## 📊 Monitoring & Reporting
 ✅ Code Quality
 
-👉 SonarQube Dashboard: [http://172.25.167.174:9000/dashboard?id=Multi-Agent-LLMOps]
+SonarQube Dashboard: [http://172.25.167.174:9000/dashboard?id=Multi-Agent-LLMOps]
 
 - Reports on bugs, code smells, vulnerabilities, and maintainability
 
@@ -117,5 +117,5 @@ Jenkins Pipeline Steps:
 
 Andrew Adel
 AI & NLP Engineer | Generative AI Engineer
-[📧 andrewadellabib77@gmail.com](mailto:andrewadellabib77@gmail.com)
-[🔗 LinkedIn](https://www.linkedin.com/in/andrew-adel-b865b1244/)
+📧 [andrewadellabib77@gmail.com](mailto:andrewadellabib77@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/andrew-adel-b865b1244/)
