@@ -110,7 +110,7 @@ SonarQube Dashboard: [http://172.25.167.174:9000/dashboard?id=Multi-Agent-LLMOps
 
 ## 👨‍💻 Author
 
-Andrew Adel
-AI & NLP Engineer | Generative AI Engineer
-📧 [andrewadellabib77@gmail.com](mailto:andrewadellabib77@gmail.com)  
+Andrew Adel <br/>
+AI & NLP Engineer | Generative AI Engineer <br/>
+📧 [andrewadellabib77@gmail.com](mailto:andrewadellabib77@gmail.com) <br/> 
 🔗 [LinkedIn](https://www.linkedin.com/in/andrew-adel-b865b1244/)
