@@ -11,7 +11,6 @@ It integrates **Groq LPU** for high-speed inference, **Tavily Search** for real-
 
 ## 🧠 System Architecture
 
-
 ---
 
 ## ⚙️ Workflow Summary
@@ -59,7 +58,7 @@ It integrates **Groq LPU** for high-speed inference, **Tavily Search** for real-
 ```bash
 git clone https://github.com/andrew-adel-labib/Scalable-Multi-Agent-LLMOps-System-with-Groq-Tavily-LangGraph-FastAPI-Streamlit-CICD-AWS-Deployment.git
 cd Scalable-Multi-Agent-LLMOps-System-with-Groq-Tavily-LangGraph-FastAPI-Streamlit-CICD-AWS-Deployment
-
+```
 ### 🐍 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
