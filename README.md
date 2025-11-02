@@ -64,13 +64,9 @@ cd Scalable-Multi-Agent-LLMOps-System-with-Groq-Tavily-LangGraph-FastAPI-Streaml
 pip install -r requirements.txt
 ```
 ### 🧩 3. Run Application
-Backend (FastAPI)
+Backend (FastAPI) + Frontend (Streamlit)
 ```bash
 python app/main.py
-```
-Frontend (Streamlit)
-```bash
-streamlit run frontend/app.py
 ```
 
 ### 🐳 4. Build Docker Image
