@@ -10,7 +10,7 @@ It integrates **Groq LPU** for high-speed inference, **Tavily Search** for real-
 ---
 
 ## 🧠 System Architecture
-
+![System Architecture](System%20Architecture/System%20Architecture.JPG)
 ---
 
 ## ⚙️ Workflow Summary
